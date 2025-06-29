@@ -18,3 +18,17 @@ export interface IMainTitle {
   text: string;
   highlightedTextClass?: string;
 }
+
+// ISecondaryButton types
+export interface ISecondaryButton {
+  text: string;
+  style?: string;
+  size: "lg" | "md" | "sm";
+}
+
+// IWorkedCard types
+export interface IWorkedCard {
+  image?: string;
+  text: string;
+  style?: string;
+}
