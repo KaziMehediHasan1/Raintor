@@ -10,3 +10,11 @@ export interface IButton {
   text: string;
   size: "lg" | "md" | "sm";
 }
+
+// MAIN-TITLE TYPES
+export interface IMainTitle {
+  style?: string;
+  highlightedText: string[];
+  text: string;
+  highlightedTextClass?: string;
+}
